@@ -17,9 +17,9 @@ app.get('/random', (req, res) => {
 });
 
 app.get('/blog', (req, res) => {
-
+    
 });
 
 app.listen(PORT, () => {
-    console.log('Server online on', PORT);
+    console.log(`Server online on http://localhost:${PORT}`);
 });
